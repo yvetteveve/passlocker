@@ -33,6 +33,11 @@ class TestContact(unittest.TestCase):
         self.new_contact.save_contact() # saving the new contact
         self.assertEqual(len(user.contact_list),1)
     # Items up here...
+    def tearDown(self):
+            '''
+            tearDown method that does clean up after each test case has run.
+            '''
+            Contact.contact_list = []
 
     def test_save_multiple_contact(self):
             '''

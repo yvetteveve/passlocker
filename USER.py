@@ -13,7 +13,7 @@ class user:
         self.last_name = last_name
         self.phone_number = number
         self.email = email
-    contact_list = [] # Empty contact list
+    # contact_list = [] # Empty contact list
  # Init method up here
     def save_contact(self):
 
