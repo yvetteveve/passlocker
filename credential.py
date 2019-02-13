@@ -14,6 +14,12 @@ class credential:
     
     # Init method up here
     def save_credential(self):
+       @classmethod
+    def display_contacts(cls):
+        '''
+        method that returns the contact list
+        '''
+        return cls.contact_list 
 
         '''
         save_credential method saves credential objects into credential_list

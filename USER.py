@@ -22,3 +22,41 @@ class user:
         '''
 
         user.contact_list.append(self)
+
+    @classmethod
+    def display_contacts(cls):
+        '''
+        method that returns the contact list
+        '''
+        return cls.contact_list
+
+    @classmethod
+    def find_by_number(cls,number):
+        '''
+        Method that takes in a number and returns a contact that matches that number.
+
+        Args:
+            number: Phone number to search for
+        Returns :
+            Contact of person that matches the number.
+        '''
+
+        for contact in cls.contact_list:
+            if contact.phone_number == number:
+                return contact  
+
+
+    @classmethod
+    def contact_exist(cls,number):
+        '''
+        Method that checks if a contact exists from the contact list.
+        Args:
+            number: Phone number to search if it exists
+        Returns :
+            Boolean: True or false depending if the contact exists
+        '''
+        for contact in cls.contact_list:
+            if contact.phone_number == number:
+                    return True
+
+        return False

@@ -49,6 +49,26 @@ class TestContact(unittest.TestCase):
             test_contact.save_contact()
             self.assertEqual(len(user.contact_list),3)
 
+    def test_display_all_contacts(self):
+        '''
+        method that returns a list of all contacts saved
+        '''
+
+        self.assertEqual(user.display_contacts(),user.contact_list)
+
+    def test_find_contact_by_number(self):
+        '''
+        test to check if we can find a contact by phone number and display information
+        '''
+
+        self.new_contact.save_contact()
+        test_contact = user("Test","user","0711223344","test@user.com") # new contact
+        test_contact.save_contact()
+
+        found_contact = user.find_by_number("0711223344")
+
+        self.assertEqual(found_contact.email,test_contact.email)    
+
 
 if __name__ == '__main__':
     unittest.main()
