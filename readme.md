@@ -30,10 +30,6 @@ user inputs password and confirms it wrongly
 ##### Output
 user exit the app immediately
 
-
-
-
-
 #### Other behaviors(short codes):
 * cp : create a new password
 * dp : display created password
