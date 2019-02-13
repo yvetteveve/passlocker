@@ -16,7 +16,7 @@ For now the project is only viewable in the terminal!
 ### (SPECs)The following is what my program should handle:
 
 #### Example Intput : 
-user enters first and last name
+user enters first name and last name
  ##### Output:
  user enters app but has to login
 
