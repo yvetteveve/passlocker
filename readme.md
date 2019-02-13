@@ -1,5 +1,5 @@
 # Password Locker
-#### The password Locker is an application designed to help the user generate and store passwords that he/she uses regulary, February 11th 2019
+#### The password Locker is an application designed to help the user generate and store passwords that he/she uses regulary, February 12th 2019
 
 #### By **YVETTE UMUBYEYI.**
 ## Description
@@ -30,10 +30,10 @@ user inputs password and confirms it wrongly
 ##### Output
 user exit the app immediately
 
-#### Example Input:
-user chooses any short code, example: cp
+<!-- #### Example Input:
+user chooses any short code, example: cp -->
 ##### Output
-the user is directed to do what the short code executes, example:cp -create password
+
 
 #### Other behaviors(short codes):
 * cp : create a new password
