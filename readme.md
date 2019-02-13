@@ -30,9 +30,8 @@ user inputs password and confirms it wrongly
 ##### Output
 user exit the app immediately
 
-<!-- #### Example Input:
-user chooses any short code, example: cp -->
-##### Output
+
+
 
 
 #### Other behaviors(short codes):
