@@ -4,3 +4,4 @@ data =inter.read()
 data = inter.readlines()
 print(data)
 inter.close()
+
