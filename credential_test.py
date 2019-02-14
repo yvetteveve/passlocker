@@ -48,6 +48,19 @@ class Testcredential(unittest.TestCase):
             test_save_credential.save_credential()
             self.assertEqual(len(credential.credential_list),2)
 
+     def test_find_contact_by_app_name(self):
+        '''
+        test to check if we can find a credential by app_name and display information
+        '''
+
+        self.new_credential.save_credential()
+        test_credential = credential("instagram","veve") # new contact
+        test_credential.save_credential()
+
+        found_credential = credential.find_by_app_name(instagram)
+
+        self.assertEqual(found_credential.password,test_credential.password)   
+
 
 if __name__ == '__main__':
     unittest.main()
