@@ -1,5 +1,5 @@
 # Password Locker
-#### The password Locker is an application designed to help the user generate and store passwords that he/she uses regulary, February 11th 2019
+#### The password Locker is an application designed to help the user generate and store passwords that he/she uses regulary, 11th February 2019
 
 #### By **YVETTE UMUBYEYI.**
 ## Description
